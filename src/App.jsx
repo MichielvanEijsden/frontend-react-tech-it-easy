@@ -25,6 +25,7 @@ function App() {
             <p> {bestSellerTitle()}</p>
           <p>{bestSellerPrice()}</p>
           <p>{bestSellerSize()}</p>
+          <p></p>
         </div>
 
 </>

@@ -14,8 +14,9 @@ function bestSellerPrice(){
 function bestSellerSize(){
     let size =[]
     for (let i = 0; i < bestSellingTv.availableSizes.length; i++) {
-        size[i] = bestSellingTv.availableSizes[i]+" "+"inch"+" "+"("+((bestSellingTv.availableSizes[i])*2.54)+" "+"cm)"
+        size[i] = bestSellingTv.availableSizes[i]+" "+"inch"+" "+"("+(Math.trunc((bestSellingTv.availableSizes[i])*2.54))+" "+"cm)"
     }
     return size.join(" | ")
 }
+
 export {bestSellerImage,bestSellerTitle,bestSellerPrice,bestSellerSize}
