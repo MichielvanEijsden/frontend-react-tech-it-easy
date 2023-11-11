@@ -3,6 +3,7 @@ import soldTv from "./Helpers/Tv-Sold.js";
 import tvTotal from "./Helpers/Tv-Total.js";
 import tvToSell from "./Helpers/Tv-ToSell.js";
 import {bestSellerImage,bestSellerPrice, bestSellerSize, bestSellerTitle} from "./Helpers/best-seller.js";
+import {check, uncheck} from "./Helpers/checkmarks.js";
 
 
 
@@ -25,7 +26,7 @@ function App() {
             <p> {bestSellerTitle()}</p>
           <p>{bestSellerPrice()}</p>
           <p>{bestSellerSize()}</p>
-          <p></p>
+          <p className="checks"><img src={check()} alt="eeee"></img> wifi <img src={uncheck()} alt="eeee"></img> speech <img src={check()} alt="eeee"></img> hdr <img src={check()} alt="eeee"></img> bluetooth <img src={uncheck()} alt="eeee"></img> ambilight </p>
         </div>
 
 </>
