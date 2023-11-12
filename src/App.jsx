@@ -6,10 +6,6 @@ import {bestSellerImage,bestSellerPrice, bestSellerSize, bestSellerTitle} from "
 import {check, uncheck} from "./Helpers/checkmarks.js";
 
 
-
-
-
-
 function App() {
   return (
       <>
