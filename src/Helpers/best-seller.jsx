@@ -17,6 +17,7 @@ function bestSellerSize(){
         size[i] = bestSellingTv.availableSizes[i]+" "+"inch"+" "+"("+(Math.trunc((bestSellingTv.availableSizes[i])*2.54))+" "+"cm)"
     }
     return size.join(" | ")
+
 }
 
 export {bestSellerImage,bestSellerTitle,bestSellerPrice,bestSellerSize}
