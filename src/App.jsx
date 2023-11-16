@@ -9,7 +9,7 @@ import {getOutSoldTvs} from "./Helpers/getOutSoldTvs.js";
 import {inventory} from "./constants/inventory.js";
 import productName from "./Helpers/productName.js";
 import {productPrice} from "./Helpers/productPrice.js";
-import {availableSizes} from "./Helpers/availableSizes.js";
+import {availableSizes} from "./Helpers/availableSizes.jsx";
 
 
 
@@ -57,7 +57,7 @@ function App() {
                            <div>
                                <h3>{productName(tv)}</h3>
                                <p>{productPrice(tv)}</p>
-                               <p>{availableSizes(tv)}</p>
+                               <p>{availableSizes(tv.availableSizes)}</p>
                                <ul className="option-list">
                                    {tv.options.map((option) => {
                                        if (option.applicable === true) {
