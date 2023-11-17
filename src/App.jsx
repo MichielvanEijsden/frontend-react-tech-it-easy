@@ -11,6 +11,7 @@ import productName from "./Helpers/productName.js";
 import {productPrice} from "./Helpers/productPrice.js";
 import {availableSizes} from "./Helpers/availableSizes.jsx";
 import {getTvTypeInfo} from "./Helpers/getTvTypeInfo.js";
+import {getSportTvs} from "./Helpers/getSportTvs.js";
 
 
 
@@ -47,6 +48,8 @@ function App() {
             {getOutSoldTvs()}
             <h2>deel 2 opdr1c</h2>
             {getTvTypeInfo()}
+            <h2>deel 2 opdr1d</h2>
+            {getSportTvs()}
 
 
             <div>
