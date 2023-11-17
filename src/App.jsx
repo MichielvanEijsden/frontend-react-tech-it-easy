@@ -10,6 +10,7 @@ import {inventory} from "./constants/inventory.js";
 import productName from "./Helpers/productName.js";
 import {productPrice} from "./Helpers/productPrice.js";
 import {availableSizes} from "./Helpers/availableSizes.jsx";
+import {getTvTypeInfo} from "./Helpers/getTvTypeInfo.js";
 
 
 
@@ -39,11 +40,13 @@ function App() {
                     src={check()} alt="yes"></img> hdr <img src={check()} alt="yes"></img> bluetooth <img
                     src={uncheck()} alt="no"></img> ambilight </p>
             </div>
-            {/*deel 2 opdr1a*/}
+            <h2>deel 2 opdr1a</h2>
             {productType()}
-            {/*deel 2 opdr1b*/}
+            <h2>deel 2 opdr1b</h2>
+            <p>zie log</p>
             {getOutSoldTvs()}
-            {/*deel 2 opdr1c*/}
+            <h2>deel 2 opdr1c</h2>
+            {getTvTypeInfo()}
 
 
             <div>

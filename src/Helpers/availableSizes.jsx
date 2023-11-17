@@ -13,7 +13,6 @@ function availableSizes(tvSizes) {
         }
 
     }
-    console.log("tv size"+sizes)
     return sizes
 }
 
