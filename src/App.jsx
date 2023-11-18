@@ -12,6 +12,7 @@ import {productPrice} from "./Helpers/productPrice.js";
 import {availableSizes} from "./Helpers/availableSizes.jsx";
 import {getTvTypeInfo} from "./Helpers/getTvTypeInfo.js";
 import {getSportTvs} from "./Helpers/getSportTvs.js";
+import {getBiggestScreen} from "./Helpers/getBiggestScreen.jsx";
 
 
 
@@ -50,6 +51,9 @@ function App() {
             {getTvTypeInfo()}
             <h2>deel 2 opdr1d</h2>
             {getSportTvs()}
+            <h2>deel 2 opdr1e</h2>
+            {getBiggestScreen()}
+            <h2>deel 2 opdr 1f</h2>
 
 
             <div>
